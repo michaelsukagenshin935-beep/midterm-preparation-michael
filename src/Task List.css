@@ -1,0 +1,118 @@
+/* TASK CARD */
+
+.task-card{
+  background:#f5f2eb;
+  border:1px solid #ddd;
+  padding:20px;
+  margin-bottom:20px;
+  border-left:6px solid gray;
+}
+
+/* PRIORITY BORDER */
+
+.task-card.high{
+  border-left:6px solid #ef4444;
+}
+
+.task-card.medium{
+  border-left:6px solid #f59e0b;
+}
+
+.task-card.low{
+  border-left:6px solid #22c55e;
+}
+
+/* TITLE */
+
+.task-title{
+  font-size:18px;
+  color:#222;
+  margin-bottom:10px;
+}
+
+/* BADGES */
+
+.badges{
+  display:flex;
+  gap:10px;
+  margin-bottom:15px;
+}
+
+.badge{
+  font-size:12px;
+  padding:4px 10px;
+  background:#e5e5e5;
+  border-radius:4px;
+  font-weight:bold;
+}
+
+/* CATEGORY */
+
+.badge.category{
+  background:#e5e7eb;
+}
+
+/* PRIORITY */
+
+.badge.priority.high{
+  color:#ef4444;
+}
+
+.badge.priority.medium{
+  color:#f59e0b;
+}
+
+.badge.priority.low{
+  color:#22c55e;
+}
+
+/* DATE */
+
+.badge.date{
+  background:#e0e7ff;
+  color:#4338ca;
+}
+
+/* BUTTONS */
+
+.task-buttons{
+  display:flex;
+  gap:10px;
+}
+
+.complete{
+  border:1px solid #16a34a;
+  color:#16a34a;
+  background:white;
+  padding:6px 14px;
+  border-radius:6px;
+}
+
+.delete{
+  border:1px solid #dc2626;
+  color:#dc2626;
+  background:white;
+  padding:6px 14px;
+  border-radius:6px;
+}
+
+/* COMPLETED TASK */
+
+.task-card.completed{
+  opacity:0.6;
+  text-decoration:line-through;
+}
+
+.dashboard {
+  display: flex;
+  gap: 40px;
+  width: 1100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  justify-content: center;
+  min-height: 100vh;      
+}
